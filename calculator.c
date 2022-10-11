@@ -4,9 +4,9 @@ int main() {
 
   char op;
   double first, second;
-  printf("Enter an operator (+, -, *, /): ");
+  printf("1 (+, -, *, /): ");
   scanf("%c", &op);
-  printf("Enter two operands: ");
+  printf("2: ");
   scanf("%lf %lf", &first, &second);
 
   switch (op) {
@@ -24,7 +24,7 @@ int main() {
       break;
     // operator doesn't match any case constant
     default:
-      printf("Error! operator is not correct");
+      printf("Erro");
   }
 
   return 0;
